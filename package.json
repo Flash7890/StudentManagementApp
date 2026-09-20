@@ -1,0 +1,22 @@
+{
+  "name": "usms",
+  "version": "1.0.0",
+  "description": "University Student Management System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start",
+    "test:server": "cd server && npm test",
+    "build": "npm run build:client && npm run start:server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
+}
