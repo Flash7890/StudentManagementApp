@@ -4,7 +4,7 @@ A full-stack web application for managing the academic lifecycle of a university
 
 **Stack:** React 18 · Redux Toolkit · Vite · Tailwind CSS · Node.js · Express · MongoDB · Groq API
 
-Livelink : student-management-app-63d3.vercel.app
+Livelink : https://student-management-app-63d3.vercel.app/
 
 ---
 
